@@ -1,0 +1,37 @@
+package com.hdfc.service;
+
+import java.util.List;
+
+import com.hdfc.entity.Book;
+
+import jakarta.inject.Inject;
+
+//@Service
+public class BookServiceImpl implements IBookservice {
+
+	@Inject
+	Book book;
+	@Override
+	public Book addBook(Book b) {
+	
+		return book.persist(b);
+	}
+
+	@Override
+	public Book updateBook(Book b) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Book> getAllBook() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+}

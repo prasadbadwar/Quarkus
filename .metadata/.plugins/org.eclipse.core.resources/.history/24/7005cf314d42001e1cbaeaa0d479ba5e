@@ -1,0 +1,55 @@
+package com.hdfc;
+
+
+import java.util.List;
+
+import com.hdfc.entity.Book;
+import com.hdfc.service.IBookservice;
+
+import jakarta.inject.Inject;
+import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.PathParam;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
+
+@Path("/api/books")
+@Produces(MediaType.APPLICATION_JSON)
+public class BookResource {
+	
+	@Inject
+	IBookservice bookservice;
+	
+	@GET
+	@Path("/allbook")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Book>getAllBooks(){
+		return bookservice.getAllBook();
+	}
+	
+	@POST
+	@Path("/addbook")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Book addBook(Book b) {
+		return bookservice.addBook(b);
+	}
+	
+	@POST
+	@Path("/updatebook")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Book updateBook(Book b) {
+		return bookservice.updateBook(b);
+	}
+	
+	@POST
+	@Path("/delete/{id}")
+	public Response delete(@PathParam("id") int id) {
+		bookservice.delete(id);
+		return Response.ok().build();
+	}
+}

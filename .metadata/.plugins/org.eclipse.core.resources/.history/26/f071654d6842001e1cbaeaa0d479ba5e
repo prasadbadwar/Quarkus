@@ -1,0 +1,54 @@
+package com.hdfc.service;
+
+import java.util.List;
+
+import com.hdfc.entity.Book;
+import com.hdfc.exception.BookNotFoundExp;
+import com.hdfc.repository.BookRepository;
+
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
+import jakarta.transaction.Transactional;
+
+@ApplicationScoped
+public class BookServiceImpl implements IBookservice {
+
+	@Inject
+	BookRepository bookrepo;
+	
+	@Override
+	@Transactional
+	public Book addBook(Book b) {
+	
+		bookrepo.persist(b);
+		return b;
+	}
+
+	@Override
+	@Transactional
+	public Book updateBook(Book b) {
+		bookrepo.persist(b);
+		return b;
+	}
+
+	@Override
+	public List<Book> getAllBook() {
+		return bookrepo.listAll();
+	}
+
+	@Override
+	@Transactional
+	public void delete(long id) throws BookNotFoundExp {
+		bookrepo.deleteById(id);
+		
+	}
+
+	@Override
+	public void getByID(long id) throws BookNotFoundExp {
+		Book book=bookrepo.findById(id);
+		if(book==null) {
+			
+		}
+		return book;
+	}
+}

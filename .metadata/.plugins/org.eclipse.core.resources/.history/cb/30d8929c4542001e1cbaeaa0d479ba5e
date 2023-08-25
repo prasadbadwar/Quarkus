@@ -1,0 +1,28 @@
+package com.hdfc;
+
+
+import java.util.List;
+
+import com.hdfc.entity.Book;
+
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.MediaType;
+
+@Path("/api/books")
+@Produces(MediaType.APPLICATION_JSON)
+public class BookResource {
+	
+	@GET
+	@Path("/allbook")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Book>getAllBooks(){
+		return List.of(
+				new Book(1,"Quarkus","RedHat"),
+				new Book(2,"JaVa","SunMicro"),
+				new Book(3,"SQL","Oracle"),
+				new Book(4,"Demo", "XYZ")
+				);
+	}
+}
