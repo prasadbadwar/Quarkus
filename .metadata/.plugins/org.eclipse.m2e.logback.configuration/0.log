@@ -3458,3 +3458,91 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact xmlpull:xmlpu
 2023-08-24 18:01:59,367 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@7bc9a352{STOPPING}[10.0.6,sto=0]
 2023-08-24 18:01:59,416 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@25817a1b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
 2023-08-24 18:01:59,818 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@11de4f93{/help,null,STOPPED}
+2023-08-25 09:42:03,637 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-08-25 09:47:17,000 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:47:17,010 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 09:47:17,043 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:47:17,043 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 09:47:44,172 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:47:44,201 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 09:47:44,208 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:47:44,208 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 09:53:48,497 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:53:48,499 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 09:53:48,501 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:53:48,502 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 09:54:29,936 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:54:29,938 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 09:54:29,941 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:54:29,941 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 09:55:01,501 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:55:01,502 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 09:55:01,505 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:55:01,506 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 09:56:26,445 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:56:26,446 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 09:56:26,458 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:56:26,458 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 09:57:05,216 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:57:05,218 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 09:57:05,220 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 09:57:05,220 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 10:37:50,471 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:37:50,474 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-08-25 10:37:50,479 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:37:50,479 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 10:37:52,793 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:37:52,793 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-08-25 10:37:52,795 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:37:52,795 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 10:37:54,599 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:37:54,600 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-08-25 10:37:54,601 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:37:54,602 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 10:56:35,132 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:56:35,134 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 10:56:35,136 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:56:35,136 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 10:56:55,752 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:56:55,754 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-08-25 10:56:55,756 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 10:56:55,756 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 12:05:58,811 [Worker-36: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker/3.2.4.Final/quarkus-container-image-docker-3.2.4.Final.pom
+2023-08-25 12:05:59,196 [Worker-36: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker/3.2.4.Final/quarkus-container-image-docker-3.2.4.Final.pom
+2023-08-25 12:05:59,387 [Worker-36: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker-parent/3.2.4.Final/quarkus-container-image-docker-parent-3.2.4.Final.pom
+2023-08-25 12:05:59,683 [Worker-36: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker-parent/3.2.4.Final/quarkus-container-image-docker-parent-3.2.4.Final.pom
+2023-08-25 12:05:59,727 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hdfc:demo-quarkus:1.0.0-SNAPSHOT @ G:\Quarkus\demo-quarkus\demo-quarkus\pom.xml.
+2023-08-25 12:05:59,770 [Worker-36: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-parent/3.2.4.Final/quarkus-container-image-parent-3.2.4.Final.pom
+2023-08-25 12:05:59,954 [Worker-36: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-parent/3.2.4.Final/quarkus-container-image-parent-3.2.4.Final.pom
+2023-08-25 12:06:00,027 [Worker-36: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image/3.2.4.Final/quarkus-container-image-3.2.4.Final.pom
+2023-08-25 12:06:00,373 [Worker-36: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image/3.2.4.Final/quarkus-container-image-3.2.4.Final.pom
+2023-08-25 12:06:01,553 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker/3.2.4.Final/quarkus-container-image-docker-3.2.4.Final.jar
+2023-08-25 12:06:01,637 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image/3.2.4.Final/quarkus-container-image-3.2.4.Final.jar
+2023-08-25 12:06:01,754 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker/3.2.4.Final/quarkus-container-image-docker-3.2.4.Final.jar
+2023-08-25 12:06:01,821 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image/3.2.4.Final/quarkus-container-image-3.2.4.Final.jar
+2023-08-25 12:06:02,196 [AetherRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker/3.2.4.Final/quarkus-container-image-docker-3.2.4.Final.jar
+2023-08-25 12:06:02,240 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker/3.2.4.Final/quarkus-container-image-docker-3.2.4.Final.jar
+2023-08-25 12:06:02,310 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image/3.2.4.Final/quarkus-container-image-3.2.4.Final.jar
+2023-08-25 12:06:02,334 [AetherRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image/3.2.4.Final/quarkus-container-image-3.2.4.Final.jar
+2023-08-25 12:06:08,252 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 12:06:08,258 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-08-25 12:06:08,262 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 12:06:08,267 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 12:06:11,415 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 12:06:11,416 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2023-08-25 12:06:11,571 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker/3.2.4.Final/quarkus-container-image-docker-3.2.4.Final-sources.jar
+2023-08-25 12:06:11,804 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 12:06:11,804 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 12:06:12,339 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image-docker/3.2.4.Final/quarkus-container-image-docker-3.2.4.Final-sources.jar
+2023-08-25 12:06:13,089 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.quarkus:quarkus-container-image-docker:3.2.4.Final
+2023-08-25 12:06:13,763 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image/3.2.4.Final/quarkus-container-image-3.2.4.Final-sources.jar
+2023-08-25 12:06:14,318 [Worker-40: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/quarkus/quarkus-container-image/3.2.4.Final/quarkus-container-image-3.2.4.Final-sources.jar
+2023-08-25 12:06:14,833 [Worker-40: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.quarkus:quarkus-container-image:3.2.4.Final
+2023-08-25 12:06:16,418 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 12:06:16,419 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-08-25 12:06:16,423 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 12:06:16,423 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
+2023-08-25 12:14:12,235 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 12:14:12,235 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-08-25 12:14:12,238 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-08-25 12:14:12,238 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory G:\Quarkus\demo-quarkus\demo-quarkus\src\test\resources
