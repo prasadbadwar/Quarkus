@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jakarta.ws.rs.GET"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.Path"/>
     <fullyQualifiedTypeName name="com.hdfc.Book"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
@@ -19,7 +18,6 @@
     <fullyQualifiedTypeName name="jakarta.ws.rs.DELETE"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.PUT"/>
     <fullyQualifiedTypeName name="io.quarkus.hibernate.orm.panache.PanacheRepository"/>
-    <fullyQualifiedTypeName name="com.hdfc.entity.Book"/>
     <fullyQualifiedTypeName name="jakarta.enterprise.context.ApplicationScoped"/>
     <fullyQualifiedTypeName name="jakarta.inject.Inject"/>
     <fullyQualifiedTypeName name="com.hdfc.repository.IBookRepository"/>
@@ -27,16 +25,22 @@
     <fullyQualifiedTypeName name="jakarta.ejb.ApplicationException"/>
     <fullyQualifiedTypeName name="lombok.experimental.StandardException"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.ext.Provider"/>
-    <fullyQualifiedTypeName name="jakarta.ws.rs.core.Response.Status"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.ext.ExceptionMapper"/>
     <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="jakarta.ws.rs.PathParam"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="com.hdfc.exception.BookNotFoundExp"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.Produces"/>
-    <fullyQualifiedTypeName name="jakarta.ws.rs.core.MediaType"/>
     <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.core.Response"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.core.Response.Status"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.core.MediaType"/>
+    <fullyQualifiedTypeName name="io.quarkus.runtime.annotations.RegisterForReflection"/>
+    <fullyQualifiedTypeName name="org.eclipse.microprofile.rest.client.inject.RegisterRestClient"/>
+    <fullyQualifiedTypeName name="com.hdfc.entity.Book"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.GET"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.PathParam"/>
+    <fullyQualifiedTypeName name="org.eclipse.microprofile.rest.client.inject.RestClient"/>
+    <fullyQualifiedTypeName name="com.hdfc.service.BookProxy"/>
+    <fullyQualifiedTypeName name="com.hdfc.exception.BookNotFoundExp"/>
 </qualifiedTypeNameHistroy>

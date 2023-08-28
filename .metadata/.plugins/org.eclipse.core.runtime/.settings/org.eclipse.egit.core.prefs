@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=G\:\\API Developer\\.git;
-GitRepositoriesView.GitDirectories.relative=G\:\\API Developer\\.git;
+GitRepositoriesView.GitDirectories=G\:\\Quarkus\\.git;G\:\\API Developer\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;G\:\\API Developer\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
