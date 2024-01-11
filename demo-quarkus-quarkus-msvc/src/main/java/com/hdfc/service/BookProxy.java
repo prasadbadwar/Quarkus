@@ -12,16 +12,16 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 
 
-@RegisterRestClient(baseUri = "https://localhost:8282/api/books")
+@RegisterRestClient(baseUri = "https://localhost:8282/api/library")
 public interface BookProxy {
 
 	
 	@GET
-	@Path("/allbook")
+	@Path("/book")
 	public List<Book> getAllBook();
 	
 	@GET
-	@Path("getBookById/{id}")
+	@Path("/book/{id}")
 	public Book getByID (@PathParam("id") long id) throws BookNotFoundExp;
 	
 }

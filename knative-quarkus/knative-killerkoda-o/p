@@ -1,0 +1,116 @@
+controlplane $ kubectl apply -f https://github.com/knative/serving/releases/latest/download/serving-crds.yaml
+customresourcedefinition.apiextensions.k8s.io/certificates.networking.internal.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/configurations.serving.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/clusterdomainclaims.networking.internal.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/domainmappings.serving.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/ingresses.networking.internal.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/metrics.autoscaling.internal.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/podautoscalers.autoscaling.internal.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/revisions.serving.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/routes.serving.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/serverlessservices.networking.internal.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/services.serving.knative.dev created
+customresourcedefinition.apiextensions.k8s.io/images.caching.internal.knative.dev created
+controlplane $ kubectl apply -f https://github.com/knative/serving/releases/latest/download/serving-core.yaml
+namespace/knative-serving created
+role.rbac.authorization.k8s.io/knative-serving-activator created
+clusterrole.rbac.authorization.k8s.io/knative-serving-activator-cluster created
+clusterrole.rbac.authorization.k8s.io/knative-serving-aggregated-addressable-resolver created
+clusterrole.rbac.authorization.k8s.io/knative-serving-addressable-resolver created
+clusterrole.rbac.authorization.k8s.io/knative-serving-namespaced-admin created
+clusterrole.rbac.authorization.k8s.io/knative-serving-namespaced-edit created
+clusterrole.rbac.authorization.k8s.io/knative-serving-namespaced-view created
+clusterrole.rbac.authorization.k8s.io/knative-serving-core created
+clusterrole.rbac.authorization.k8s.io/knative-serving-podspecable-binding created
+serviceaccount/controller created
+clusterrole.rbac.authorization.k8s.io/knative-serving-admin created
+clusterrolebinding.rbac.authorization.k8s.io/knative-serving-controller-admin created
+clusterrolebinding.rbac.authorization.k8s.io/knative-serving-controller-addressable-resolver created
+serviceaccount/activator created
+rolebinding.rbac.authorization.k8s.io/knative-serving-activator created
+clusterrolebinding.rbac.authorization.k8s.io/knative-serving-activator-cluster created
+customresourcedefinition.apiextensions.k8s.io/images.caching.internal.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/certificates.networking.internal.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/configurations.serving.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/clusterdomainclaims.networking.internal.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/domainmappings.serving.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/ingresses.networking.internal.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/metrics.autoscaling.internal.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/podautoscalers.autoscaling.internal.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/revisions.serving.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/routes.serving.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/serverlessservices.networking.internal.knative.dev unchanged
+customresourcedefinition.apiextensions.k8s.io/services.serving.knative.dev unchanged
+secret/serving-certs-ctrl-ca created
+secret/knative-serving-certs created
+secret/control-serving-certs created
+secret/routing-serving-certs created
+image.caching.internal.knative.dev/queue-proxy created
+configmap/config-autoscaler created
+configmap/config-defaults created
+configmap/config-deployment created
+configmap/config-domain created
+configmap/config-features created
+configmap/config-gc created
+configmap/config-leader-election created
+configmap/config-logging created
+configmap/config-network created
+configmap/config-observability created
+configmap/config-tracing created
+horizontalpodautoscaler.autoscaling/activator created
+poddisruptionbudget.policy/activator-pdb created
+deployment.apps/activator created
+service/activator-service created
+deployment.apps/autoscaler created
+service/autoscaler created
+deployment.apps/controller created
+service/controller created
+horizontalpodautoscaler.autoscaling/webhook created
+poddisruptionbudget.policy/webhook-pdb created
+deployment.apps/webhook created
+service/webhook created
+validatingwebhookconfiguration.admissionregistration.k8s.io/config.webhook.serving.knative.dev created
+mutatingwebhookconfiguration.admissionregistration.k8s.io/webhook.serving.knative.dev created
+validatingwebhookconfiguration.admissionregistration.k8s.io/validation.webhook.serving.knative.dev created
+secret/webhook-certs created
+controlplane $ kubectl get pods -n knative-serving
+NAME                          READY   STATUS              RESTARTS   AGE
+activator-5c48bb4df9-m25p6    0/1     ContainerCreating   0          10s
+autoscaler-85b4ddb94b-h46d4   0/1     ContainerCreating   0          10s
+controller-575457d5c-b52br    0/1     ContainerCreating   0          10s
+webhook-6859dd7cbf-2vd8t      0/1     ContainerCreating   0          10s
+controlplane $ kubectl get pods -n knative-serving
+NAME                          READY   STATUS    RESTARTS   AGE
+activator-5c48bb4df9-m25p6    1/1     Running   0          4m20s
+autoscaler-85b4ddb94b-h46d4   1/1     Running   0          4m20s
+controller-575457d5c-b52br    1/1     Running   0          4m20s
+webhook-6859dd7cbf-2vd8t      1/1     Running   0          4m20s
+controlplane $ 
+
+controlplane $ kubectl get crds | grep knative
+certificates.networking.internal.knative.dev          2023-09-11T05:03:06Z
+clusterdomainclaims.networking.internal.knative.dev   2023-09-11T05:03:06Z
+configurations.serving.knative.dev                    2023-09-11T05:03:06Z
+domainmappings.serving.knative.dev                    2023-09-11T05:03:06Z
+images.caching.internal.knative.dev                   2023-09-11T05:03:07Z
+ingresses.networking.internal.knative.dev             2023-09-11T05:03:06Z
+metrics.autoscaling.internal.knative.dev              2023-09-11T05:03:06Z
+podautoscalers.autoscaling.internal.knative.dev       2023-09-11T05:03:07Z
+revisions.serving.knative.dev                         2023-09-11T05:03:07Z
+routes.serving.knative.dev                            2023-09-11T05:03:07Z
+serverlessservices.networking.internal.knative.dev    2023-09-11T05:03:07Z
+services.serving.knative.dev                          2023-09-11T05:03:07Z
+controlplane $ 
+
+controlplane $ kubectl apply -f kservice.yml  
+Warning: Kubernetes default value is insecure, Knative may default this to secure in a future release: spec.template.spec.containers[0].securityContext.allowPrivilegeEscalation, spec.template.spec.containers[0].securityContext.capabilities, spec.template.spec.containers[0].securityContext.runAsNonRoot, spec.template.spec.containers[0].securityContext.seccompProfile
+service.serving.knative.dev/knative-quarkus-app created
+controlplane $ 
+
+controlplane $ kubectl get ksvc knative-quarkus-app
+
+controlplane $ kubectl get ksvc
+NAME                  URL                                                    LATESTCREATED               LATESTREADY   READY   REASON
+knative-quarkus-app   http://knative-quarkus-app.default.svc.cluster.local   knative-quarkus-app-00001                 False   RevisionMissing
+
+curl  http://knative-quarkus-app.default.svc.cluster.local/hello

@@ -40,35 +40,29 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
     </dependency>
-    <dependency>
+    <!-- <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-orm</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-jdbc-postgresql</artifactId>
-    </dependency>
+    </dependency> -->
+
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.26</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-hibernate-orm-panache</artifactId>
-    </dependency>
+    
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-openapi</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-container-image-docker</artifactId>
+      <artifactId>quarkus-rest-client</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-rest-client</artifactId>
+      <artifactId>quarkus-mailer</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>

@@ -7,7 +7,6 @@ import jakarta.ws.rs.ext.ExceptionMapper;
 import jakarta.ws.rs.ext.Provider;
 
 @Provider
-
 public class GlobalExpController implements ExceptionMapper<BookNotFoundExp> {
 
 	

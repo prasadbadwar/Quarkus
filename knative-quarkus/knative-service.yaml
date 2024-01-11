@@ -1,0 +1,14 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: knative-quarkus-app
+  annotations:
+    autoscaling.knative.dev/minScale: "2" 
+spec:
+  template:
+    spec:
+      containers:
+        - image: prasadbadwar/knative-quarkus-app
+          ports: 
+          - containerPort: 8484
+          

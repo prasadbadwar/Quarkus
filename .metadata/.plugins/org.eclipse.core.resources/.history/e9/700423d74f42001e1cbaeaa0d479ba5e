@@ -1,9 +1,0 @@
-package com.hdfc.repository;
-
-import com.hdfc.entity.Book;
-
-import io.quarkus.hibernate.orm.panache.PanacheRepository;
-
-public class IBookRepository implements PanacheRepository<Book> {
-
-}

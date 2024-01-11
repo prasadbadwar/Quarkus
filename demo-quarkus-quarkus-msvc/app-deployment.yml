@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment # Kubernetes resource kind we are creating
+metadata:
+  name: demo-quarkus-microsvc
+spec:
+  selector:
+    matchLabels:
+      app: demo-quarkus-microsvc-k8s
+  replicas: 3 # Number of replicas that will be created for this deployment
+  template:
+    metadata:
+      labels:
+        app: demo-quarkus-microsvc-k8s
+    spec:
+      containers:
+        - name: demo-quarkus-microsvc-k8s
+          image: prasadbadwar/demo-quarkus-microsvc-jvm # Image that will be used to containers in the cluster
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8383 # The port that the container is running on in the cluster
+
+          env:   
+            - name: SERVER_HOST   
+              value: postgres-service       #service name of dbdeployment.yml file
+            - name: SERVER_PORT 
+              value: 8282           
+            
+
+---
+
+apiVersion: v1 # Kubernetes API version
+kind: Service # Kubernetes resource kind we are creating
+metadata: # Metadata of the resource kind we are creating
+  name: demo-quarkus-microsvc-k8ssvc
+spec:
+  selector:
+    app: demo-quarkus-microsvc-k8s
+  ports:
+    - protocol: "TCP"
+      port: 8383 # The port that the service is running on in the cluster
+      targetPort: 8383 # The port exposed by the service
+  type: NodePort # type of the service.
