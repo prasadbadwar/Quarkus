@@ -32,6 +32,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="G:\API Developer\midtermproject\employee-management-system"/>
 			<item value="G:\Quarkus\book-keycloak-quarkus"/>
 			<item value="G:\Quarkus\demo-quarkus"/>
 		</list>

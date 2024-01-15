@@ -15,7 +15,6 @@
     <fullyQualifiedTypeName name="jakarta.ws.rs.core.Response.ResponseBuilder"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.DELETE"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.PUT"/>
-    <fullyQualifiedTypeName name="io.quarkus.hibernate.orm.panache.PanacheRepository"/>
     <fullyQualifiedTypeName name="jakarta.enterprise.context.ApplicationScoped"/>
     <fullyQualifiedTypeName name="com.hdfc.repository.IBookRepository"/>
     <fullyQualifiedTypeName name="com.hdfc.repository.BookRepository"/>
@@ -30,7 +29,6 @@
     <fullyQualifiedTypeName name="jakarta.ws.rs.Produces"/>
     <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.core.Response.Status"/>
-    <fullyQualifiedTypeName name="jakarta.ws.rs.core.MediaType"/>
     <fullyQualifiedTypeName name="io.quarkus.runtime.annotations.RegisterForReflection"/>
     <fullyQualifiedTypeName name="org.eclipse.microprofile.rest.client.inject.RegisterRestClient"/>
     <fullyQualifiedTypeName name="com.hdfc.entity.Book"/>
@@ -54,4 +52,10 @@
     <fullyQualifiedTypeName name="io.quarkus.security.identity.SecurityIdentity"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="jakarta.annotation.security.RolesAllowed"/>
+    <fullyQualifiedTypeName name="io.quarkus.hibernate.orm.panache.PanacheRepository"/>
+    <fullyQualifiedTypeName name="jakarta.ws.rs.core.MediaType"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.log.LogFactory"/>
+    <fullyQualifiedTypeName name="lombok.extern.log4j.Log4j"/>
 </qualifiedTypeNameHistroy>
